@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+log() {
+  printf "\n[init] %s\n" "$1"
+}
 
 log "Starting EC2 init for project social2"
 
